@@ -9,3 +9,33 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+.overview-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
