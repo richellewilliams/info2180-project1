@@ -69,9 +69,9 @@ li {
 
 .cards {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    grid-template-columns: 200px 200px 200px;
     grid-gap: 140px;
 }
 
@@ -80,7 +80,7 @@ li {
     height: 250px;
 }
 
-.testing > div{
+.testing > div {
     display: flex;
     justify-self: space-between;
 }
@@ -121,4 +121,28 @@ li {
 
 .stories div :nth-child(3) {
     padding: 10px;
+}
+
+.newsletter div h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
