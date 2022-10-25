@@ -60,3 +60,9 @@ body {
 li {
     display: inline;
 }
+
+.overview-hero-image > img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
