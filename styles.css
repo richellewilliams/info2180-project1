@@ -100,3 +100,25 @@ li {
     padding-bottom: 100px;
     text-align: center;
 }
+
+.stories div article img {
+    width: 300px;
+    height: 300px;
+}
+
+.stories img:nth-child(1) {
+    float: left;
+}
+
+.stories img:nth-child(2) {
+    float: left;
+}
+
+.stories div :nth-child(2) {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.stories div :nth-child(3) {
+    padding: 10px;
+}
