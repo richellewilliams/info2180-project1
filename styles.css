@@ -1,6 +1,21 @@
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+header {
+    background-color: white;
+    font-size: 18px;
+}
+
+.container nav ul li a {
+    color: #6b7280;
+    text-decoration: none;
+}
+
+.container nav ul li a:hover {
+    color: #5A67D8;
 }
 
 .container {
@@ -14,6 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     clear: both;
+    background-color: #E2E8F0;
 }
 
 .learn-about {
@@ -22,10 +38,21 @@ body {
     align-items: center;
 }
 
+.learn-about div h2 {
+    color: #48BB78;
+}
+
+.learn-about div h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
 .testing {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #4A5568;
+    color: white;
 }
 
 .stories {
@@ -75,6 +102,13 @@ li {
     grid-gap: 140px;
 }
 
+.card {
+    border-style: solid;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0px 5px 2px #c6c6c6;
+}
+
 .card > img {
     width: 250px;
     height: 250px;
@@ -94,11 +128,28 @@ li {
 
 .cta {
     float: right;
-    padding-left: 100px;
-    padding-right: 100px; 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+.testing .container .cta a {
+    text-decoration: none;
+    color: white;
+}
+
+.stories div h2 {
+    color: #5A67D8;
+}
+
+.stories .container .article-body a {
+    color: #5A67D8;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .stories div article img {
@@ -115,8 +166,7 @@ li {
     float: left;
 }
 
-.stories div :nth-child(2) {
-    padding: 10px;
+.stories div :nth-child(2) { 
     padding-bottom: 50px;
 }
 
@@ -140,10 +190,26 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter .container form .btn {
+    background-color: #5A67D8;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
 }
 
 form {
     display: flex;
     justify-content:center;
     align-items:center;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
 }
