@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    clear: both
+    clear: both;
 }
 
 .learn-about {
@@ -40,11 +40,11 @@ body {
     align-items: center;
 }
 
-.container h1{
+.container h1 {
     display: inline;
 }
 
-.container nav{
+.container nav {
     display: inline;
 }
 
@@ -65,4 +65,17 @@ li {
     width: 200px;
     height: 200px;
     float: left;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 140px;
+}
+
+.card > img {
+    width: 250px;
+    height: 250px;
 }
