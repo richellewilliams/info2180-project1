@@ -79,3 +79,24 @@ li {
     width: 250px;
     height: 250px;
 }
+
+.testing > div{
+    display: flex;
+    justify-self: space-between;
+}
+
+.testing-desciption {
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cta {
+    float: right;
+    padding-left: 100px;
+    padding-right: 100px; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
