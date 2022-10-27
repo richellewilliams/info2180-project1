@@ -9,13 +9,17 @@ header {
     font-size: 18px;
 }
 
-.container nav ul li a {
+.container > nav > ul > li > a {
     color: #6b7280;
     text-decoration: none;
 }
 
-.container nav ul li a:hover {
+.container > nav > ul > li > a:hover {
     color: #5A67D8;
+}
+
+.container > nav {
+    padding-top: 18px;
 }
 
 .container {
@@ -30,6 +34,7 @@ header {
     align-items: center;
     clear: both;
     background-color: #E2E8F0;
+    padding: 70px;
 }
 
 .learn-about {
@@ -38,11 +43,11 @@ header {
     align-items: center;
 }
 
-.learn-about div h2 {
+.learn-about > div > h2 {
     color: #48BB78;
 }
 
-.learn-about div h3 {
+.learn-about > div > h3 {
     color: #48BB78;
     font-size: 21px;
 }
@@ -67,19 +72,19 @@ header {
     align-items: center;
 }
 
-.container h1 {
+.container > h1 {
     display: inline;
 }
 
-.container nav {
+.container > nav {
     display: inline;
 }
 
-.container h1:nth-child(1) {
+.container > h1:nth-child(1) {
     float: left;
 }
 
-.container nav:nth-child(2) {
+.container > nav:nth-child(2) {
     float: right;
     align-items: center;
 }
@@ -92,6 +97,8 @@ li {
     width: 200px;
     height: 200px;
     float: left;
+    padding-left: 90px;
+    padding-right: 80px;
 }
 
 .cards {
@@ -114,24 +121,23 @@ li {
     height: 250px;
 }
 
+.testing {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
 .testing > div {
     display: flex;
     justify-self: space-between;
 }
 
 .testing-desciption {
-    padding-left: 50px;
-    padding-right: 50px; 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 50px;
 }
 
 .cta {
     float: right;
-    padding-left: 50px;
-    padding-right: 50px; 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 10px 50px 10px 50px;
     text-align: center;
     background-color: #48BB78;
     border-radius: 5px;
@@ -142,8 +148,27 @@ li {
     color: white;
 }
 
-.stories div h2 {
+.stories {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.stories > div > h2 {
     color: #5A67D8;
+    padding-left: 31px;
+    padding-bottom: 40px;
+}
+
+.stories > div > article > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: left;
+}
+
+.article-body {
+    padding-left: 310px;
+    padding-bottom: 100px; /*HERE*/
 }
 
 .stories .container .article-body a {
@@ -152,38 +177,12 @@ li {
     text-decoration: none;
 }
 
-.stories div article img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+.stories > div:nth-child(2) { 
+    padding-bottom: 10px;
 }
 
-.stories img:nth-child(1) {
-    float: left;
-}
-
-.stories img:nth-child(2) {
-    float: left;
-}
-
-.stories div :nth-child(2) { 
-    padding-bottom: 50px;
-}
-
-.stories div :nth-child(3) {
-    padding: 10px;
-}
-
-.newsletter div h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.newsletter div p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.stories > div:nth-child(3) {
+    padding-bottom: 10px;
 }
 
 .newsletter {
@@ -192,15 +191,19 @@ li {
     align-items: center;
     background-color: #48BB78;
     color: white;
+    padding: 40px 470px 60px;
 }
 
-.newsletter .container form .btn {
-    background-color: #5A67D8;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
+.newsletter > div > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter > div > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
@@ -209,7 +212,35 @@ form {
     align-items:center;
 }
 
+#email {
+    background-color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0px 7px;
+}
+
+#email::placeholder {
+    color: #ABAAAA;
+}
+
+.newsletter > .container > form > .btn {
+    background-color: #5A67D8;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.message {
+    padding-top: 20px;
+}
+
 footer {
     background-color: #4A5568;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
