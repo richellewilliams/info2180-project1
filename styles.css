@@ -7,6 +7,8 @@ body {
 header {
     background-color: white;
     font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 110px;
 }
 
 .container > nav > ul > li > a {
@@ -41,13 +43,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .learn-about > div > h2 {
     color: #48BB78;
 }
 
-.learn-about > div > h3 {
+.learn-about > div h3 {
     color: #48BB78;
     font-size: 21px;
 }
@@ -94,31 +98,40 @@ li {
 }
 
 .overview-hero-image > img {
-    width: 200px;
+    width: 280px;
     height: 200px;
     float: left;
-    padding-left: 90px;
-    padding-right: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .cards {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 140px;
+    display: flex;
+    width: 100%;
+    height: 495px;
+    grid-gap: 20px;
 }
 
 .card {
+    text-align: left;
+    flex: 1;
     border-style: solid;
     border-color: #E2E8F0;
     border-radius: 5px;
     box-shadow: 0px 5px 2px #c6c6c6;
+    padding-top: 10px;
 }
 
 .card > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 250px;
     height: 250px;
+}
+
+.card-body {
+    padding: 15px;
 }
 
 .testing {
@@ -198,7 +211,7 @@ li {
     align-items: center;
     background-color: #48BB78;
     color: white;
-    padding: 40px 470px 60px;
+    padding: 40px 470px 50px;
 }
 
 .newsletter > div > h3 {
